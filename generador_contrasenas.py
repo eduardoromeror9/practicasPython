@@ -36,7 +36,7 @@ def generar_contrasena():
     contrasena = []
 
     while (len(contrasena) < 16):
-        caracteres=random.choice(caracter)    
+        caracteres = random.choice(caracter)    
         contrasena.append(caracteres)
     contrasena = "".join(contrasena)
     return contrasena
